@@ -1,0 +1,65 @@
+# Wireshark Practical Lab
+
+## Step 1
+
+Open Wireshark
+
+wireshark
+
+
+## Step 2
+
+Select interface
+
+ens33
+
+## Step 3
+
+Start Packet Capture
+
+Double click the interface.
+
+
+## Step 4
+
+Generate Traffic
+
+ping google.com
+
+Open Firefox
+
+Visit
+
+- google.com
+- youtube.com
+- openai.com
+
+
+## Step 5
+
+Stop Capture
+
+Click the red Stop button.
+
+
+## Step 6
+
+Apply Display Filters
+
+for ICMP   type "icmp"   in filter box
+
+For DNS   type  "dns"   in filter box
+
+For TCP   type  "tcp"  in filter box
+
+For  UDP  type "udp"   in filter box
+
+For ARP   type  "arp"   in filter box
+
+
+For TLS    type "tls"   in filter box
+
+
+If TLS does not appear
+
+type "tcp.port == 443" in filter box

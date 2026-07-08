@@ -1,0 +1,70 @@
+# Commands Used During Lab
+
+
+## Check Wireshark Version
+
+wireshark --version
+
+
+## Install Wireshark
+
+sudo apt update
+
+sudo apt install wireshark
+
+
+---
+
+## Check User Groups
+
+groups
+
+
+## Check Current User
+
+whoami
+
+
+## Show User Information
+
+
+id
+
+
+## Check Dumpcap
+
+
+which dumpcap
+
+
+ls -l /usr/bin/dumpcap
+
+
+## Check Wireshark Group
+
+getent group wireshark
+
+
+## Add User to Wireshark Group
+
+sudo usermod -aG wireshark $USER
+
+or
+
+sudo gpasswd -a ubuntu wireshark
+
+## Reboot
+
+sudo reboot
+
+## Open Wireshark
+
+wireshark
+
+## Ping Google
+
+ping google.com
+
+Stop Ping (after around 10-15 seconds)
+
+Ctrl + C

@@ -1,0 +1,73 @@
+# Protocol Analysis
+
+## ICMP
+
+Purpose
+
+- Used by Ping
+- Tests connectivity
+
+---
+
+## DNS
+
+Purpose
+
+- Converts domain names into IP addresses
+
+Example
+
+google.com
+
+?
+
+142.xxx.xxx.xxx
+
+---
+
+## TCP
+
+Purpose
+
+Reliable communication
+
+Uses
+
+- HTTP
+- HTTPS
+- SSH
+- FTP
+- Email
+
+
+## UDP
+
+Purpose
+
+Fast communication
+
+Uses
+
+- Gaming
+- Streaming
+- VoIP
+
+
+## ARP
+
+Purpose
+
+Maps
+
+IP Address  goes to  MAC Address
+
+Works inside a Local Area Network.
+
+
+## TLS
+
+Purpose
+
+Encrypts communication
+
+Commonly used with HTTPS.

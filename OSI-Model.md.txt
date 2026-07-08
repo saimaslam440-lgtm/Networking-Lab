@@ -1,0 +1,9 @@
+| Layer | Name         | Main Function                 |
+| ----- | ------------ | ----------------------------- |
+| 7     | Application  | HTTP, HTTPS, DNS              |
+| 6     | Presentation | Encryption, Compression       |
+| 5     | Session      | Start, Maintain, End Sessions |
+| 4     | Transport    | TCP, UDP                      |
+| 3     | Network      | IP, Routing                   |
+| 2     | Data Link    | MAC Address, Switching        |
+| 1     | Physical     | Bits, Cable, Hub              |

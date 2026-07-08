@@ -1,0 +1,6 @@
+| TCP/IP Layer   | OSI Layer |
+| -------------- | --------- |
+| Application    | 7,6,5     |
+| Transport      | 4         |
+| Internet       | 3         |
+| Network Access | 2,1       |
